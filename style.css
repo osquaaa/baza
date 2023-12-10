@@ -314,23 +314,23 @@ body{
     
 }
 .page__services{
-    margin: 280px 0px 0px 0px;
+    margin: 134px 0px 0px 0px;
     position: relative;
     z-index: 2;
 }
 @media (max-width:992px){
     .page__services{
-        margin: 330px 0px 0px 0px;
+        margin: 90px 0px 0px 0px;
     }
 }
 @media (max-width:767px){
     .page__services{
-        margin: 390px 0px 0px 0px;
+        margin: 80px 0px 0px 0px;
     }
 }
 @media(max-width: 382px){
     .page__services{
-        margin: 370px 0px 0px 0px;
+        margin: 70px 0px 0px 0px;
     }
 }
 .page__advantages{
@@ -401,14 +401,14 @@ body{
 }
 
 .main-block__body{
-    padding: 184px 0px 191px 0px;
+    padding: 200px 0px 191px 0px;
     position: relative;
     z-index: 2;
-    max-width: 400px;
+    max-width: 1000px;
 }
 @media (max-width:992px){
     .main-block__body{
-        padding: 120px 0px 191px 0px;
+        padding: 180px 0px 191px 0px;
         
     }
 }
@@ -513,10 +513,12 @@ body{
 }
 .main-block__button_orange{
     border-radius: 100px;
-    padding: 23px 35px;
+    padding: 23px 30px;
     background: #F99E16;
     color: #FAFAFA;
     transition:all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 18px;
 }
 .main-block__button_orange:hover{
     background-color: #fff;
@@ -529,9 +531,7 @@ body{
     top: 0;
     object-fit: cover;
     width: 100%;
-    height: 1000px;
-    
-
+    height: 110%;
 }
 .main-block__image img{
     opacity: 0.6;
