@@ -1510,7 +1510,6 @@ box-shadow: 1px 24px 24px 1px rgba(0, 0, 0, 0.17);
     } 
 
     .activies-card:not(:last-child){
-        margin-right: 10px;
     }
 
 
@@ -1688,6 +1687,10 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
     }
     .galery-photos img:not(:last-child){
         margin-right: 10px;
+    }
+    .galery-photos img:hover{
+        cursor: pointer;
+        transform: scale(1.02)
     }
 
 
