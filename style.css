@@ -1471,7 +1471,7 @@ box-shadow: 1px 24px 24px 1px rgba(0, 0, 0, 0.17);
 .services-card span{
     display: flex;
     top: 0%;
-    background-color: #ffffff48;
+    background-color: #ffffff91;
     backdrop-filter: blur(40px);
     padding: 15px;
     border-radius: 30px 30px 30px 0px;
@@ -1534,8 +1534,16 @@ box-shadow: 1px 24px 24px 1px rgba(0, 0, 0, 0.17);
             display: inline-block;
             height: 370px;
             vertical-align: top;
-        
+            -webkit-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
+-moz-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
+box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
         } 
+        .services-card:hover{
+            -webkit-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
+-moz-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
+box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
+        
+        }
     }
 
 
