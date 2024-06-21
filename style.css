@@ -1698,7 +1698,23 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
         transform: scale(1.02)
     }
 
-
+    .galery-more{
+        display: flex;
+        color: rgb(0, 213, 0);
+        font-size: 17px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        cursor: pointer;
+    }
+    .galery-more:hover{
+        text-decoration-style: solid;
+    }
+    .galery-title__content{
+        margin-bottom: 57px;
+    }
+    
     @media(max-width: 1153px){
          .galery-photos{
             width: 100%;
