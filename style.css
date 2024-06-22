@@ -1894,6 +1894,7 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
 
 
       .footer{
+        
         padding-top: 20px;
         background-color: #333;
         padding-bottom: 20px;
@@ -1971,7 +1972,6 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
       .footer-times{
         margin-left: 30px;
         font-size: 18px;
-        padding-top: 20px;
       }
       .footer-times span{
         font-weight: 600;
