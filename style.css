@@ -1635,7 +1635,8 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
 .galery{
     background-color: #e8e8e8cf;
     margin-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
+    border-bottom: 2px solid #a7a7a7;
 }
 
     .galery-title{
