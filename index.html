@@ -86,7 +86,9 @@
                                 Отдых для всей семьи
                             </div>
                             <div class="main-block__buttons">
-                                <a class="main-block__button main-block__button_orange" id="openModal">Связаться с нами</a>
+                                <a href="javascript:jivo_api.open()" class="main-block__button main-block__button_orange" >Связаться с нами</a>
+                                <a href="javascript:jivo_api.open({start : 'call'})" class="main-block__button main-block__button_white" >Заказать звонок</a>
+
                             </div>
                         </div>
                     </div>
@@ -197,7 +199,9 @@
 
                         <div class="doyoulike">
                             <span class="like-title">Хотите посетить нашу базу отдыха?</span>
-                            <span class="like-sub">Обратитесь к нашему оператору, <br>или закажите обратный звонок, <br>нажав на одну из кнопок в правом углу экрана</span>
+                            <a href="javascript:jivo_api.open()" class="like-sub">Связаться с нами</a>
+                            <a href="javascript:jivo_api.open({start : 'call'})" class="like-sub">Заказать обратный звонок</a>
+
                         </div>
                         <!-- <div class="about-card">
                         </div> -->
@@ -307,19 +311,16 @@
                             <div class="logo-social">
                                 <a href="" class="social-img"><img src="./img/socseti/vk-svgrepo-com.svg" alt=""></a>
                                 <a href="" class="social-img"><img src="./img/socseti/telegram-svgrepo-com.svg" alt=""></a>
-                                <a class="footer-link" id="openModal">Связаться с нами</a>
+                                <a href="javascript:jivo_api.open()" class="footer-link">Связаться с нами</a>
+                                <a href="javascript:jivo_api.open({start : 'call'})" class="footer-link link-phone">Заказать звонок</a>
+
 
                     </div>
                         </div>
                     </div>
                 </section>
                   
-<div id="modal" class="modal">
-    <div class="modal-content">
-      <button class="close">Понятно!</button>
-      <p>Если у тебя есть вопросы по нашей базе, или ты хочешь забронировать номер, обращайся к нашему оператору, нажав на кнопку в правом углу экрана.</p>
-    </div>
-  </div>
+
           
                   <!-- The Modal/Lightbox -->
                   <div id="myModal" class="modal">
