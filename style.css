@@ -1744,7 +1744,7 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
         margin-right: 10px;
     }
     .galery-photos img:hover{   
-        cursor: pointer;
+        cursor: zoom-in;
         transform: scale(1.02)
     }
 
@@ -2182,6 +2182,10 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
 
     .header-photo{
         background-color: #2B2B2B;
+        background-image: url(https://avatars.mds.yandex.net/get-altay/11924971/2a0000019011d30cc25d07c9ccb3c2891e7e/XXXL);
+        background-size: cover;
+        background-position: center;
+        
     }
     .header-photo a{
 
