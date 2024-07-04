@@ -1414,9 +1414,9 @@ border: 2px solid;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px; 
-    height: 50px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
+    
 }
 .activies-card__img{
     width: 100%;
@@ -1680,7 +1680,6 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
 
 .galery{
     background-color: #e8e8e8cf;
-    margin-top: 80px;
     padding-bottom: 130px;
  }
 
@@ -2467,4 +2466,52 @@ display: block;
 
 .activies-card__entertainment{
     width: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-price{
+    color: #86b848;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.card-subtitle{
+    color: #737373;
+    padding: 10px;
+}
+
+
+
+
+.card-link__more{
+    display: flex;
+    color: rgb(0, 213, 0);
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+
+.activies-uslugi{
+    margin-top: 100px;
+    padding-bottom: 80px;
+    background-color: #3384002a;
 }
