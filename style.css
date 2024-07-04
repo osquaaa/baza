@@ -2425,6 +2425,28 @@ display: block;
     margin-right: 30px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+.activies-cards__beauty{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 30px;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.activies-card__beauty:not(:last-child)
+{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
 .photos-content__image img{
     height: 400px;
     width: 300px;
@@ -2517,4 +2539,12 @@ display: block;
     margin-top: 100px;
     padding-bottom: 80px;
     background-color: #3384002a;
+}
+.activies-beauty{
+    padding-bottom: 80px;
+    background-color: #d520b731;
+}
+.activies-subtitle{
+    text-align: center;
+    color: #737373b9;
 }
