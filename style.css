@@ -2485,6 +2485,10 @@ display: block;
     color: #86b848;
     font-weight: 600;
     margin-top: 10px;
+    background-color: #33840022;
+    padding: 12px 20px;
+    border-radius: 10px 20px;
+
 }
 .card-subtitle{
     color: #737373;
