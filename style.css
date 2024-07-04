@@ -190,13 +190,13 @@ body{
     }
 
 }
-@media(max-width:1180px){
+@media(max-width:1240px){
     .number__header{
         position: absolute;
-        right: 10px;
+        right: 30px;
     }
 }
-@media(max-width: 992px){
+@media(max-width: 1176px){
     .number__header{
         left: 0;
         display: flex;
@@ -315,13 +315,16 @@ body{
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-
+/* @media (max-width:1168px) {
+    .menu__link{
+        margin-right: fpx;
+    }} */
 @media (max-width:1120px) {
     .menu__link{
-        font-size: 18px;
+        font-size: 17px;
     }
 }
-@media (max-width:992px) {
+@media (max-width:1176px) {
     .menu__link{
         display: none;
     }
@@ -733,10 +736,11 @@ body{
         color: #ddd;
     }
     .number__title{
-        font-size: 20px;
+        font-size: 16px;
     }
     .number__content{
         position: absolute;
+        font-size: 10px;
         padding: 0px 0px 0px 15px;
         left: 50%;
         top: 10%;
@@ -745,7 +749,7 @@ body{
 }
 @media (max-width: 479px){
     .number__header{
-        display: none;
+        text-align: center;
     }
         .header__logo{
             position:absolute;
@@ -2632,7 +2636,7 @@ display: block;
     border-radius: 30px;
     text-decoration: none;
 }
-.rooms-block__button_white:hover{
+.rooms-block__button_white{
     color: #74b84a;
     background-color: #eaffde;
 }
