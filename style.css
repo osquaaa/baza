@@ -1473,7 +1473,6 @@ border: 2px solid;
 
 .services-card {
     position: relative;
-    background-image: url(./img/foto/111_1.jpg.jpg);
     display: inline-block;
     vertical-align: top;
     width: 270px;
@@ -1584,7 +1583,7 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
 
     @media(max-width: 742px){
         .services-card:not(:last-child){
-            margin-right: 30px;
+            margin-right: 55px;
         }
     }
 
