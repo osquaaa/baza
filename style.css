@@ -2510,7 +2510,7 @@ display: block;
     background-color: #33840022;
     padding: 12px 20px;
     border-radius: 10px 20px;
-
+    text-align: center;
 }
 .card-subtitle{
     color: #737373;
@@ -2547,4 +2547,55 @@ display: block;
 .activies-subtitle{
     text-align: center;
     color: #737373b9;
+}
+
+
+
+
+.activies-card__rooms{
+    background-color: none;
+}
+
+.pluses-title{
+    color: #2B2B2B;
+    font-size: 40px;
+    text-align: center;
+}
+.pluses-content{
+    color: #000;
+    margin-top: 50px;
+}
+.ul-pluses{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+}
+.ul-pluses li{  
+    color: #333;
+    margin-top: 20px;
+    background-color: #7373732e;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+
+.services-more_sub{
+    color: #fff;
+    border-radius: 30px;
+    
+}
+
+.services-card a{
+    position: absolute;
+    z-index: 100;
+    bottom: 0%;
+    padding: 20px;
+    background-color: #82ac74;
+    text-decoration: underline;
+    text-decoration-style: dashed;
 }
