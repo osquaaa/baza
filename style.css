@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
 *, *::before, *::after {
     padding: 0;
     margin: 0;
@@ -95,10 +97,17 @@ body{
     }
 }
 .header__logo{
+    margin-top: 20px;
     font-size: 24px;
     font-weight: 700;
     color: #FFFEFE;
     text-decoration: inherit;
+}
+.header__logo img{
+    margin-top: 10px;
+    height: 100px;
+    filter: invert(1);
+
 }
 .header__menu{
     margin: 0px 0px 0px 133px;
@@ -546,20 +555,20 @@ body{
 }
 
 .main-block__body{
-    padding: 200px 0px 191px 0px;
+    padding: 240px 0px 191px 0px;
     position: relative;
     z-index: 2;
     max-width: 1000px;
 }
 @media (max-width:992px){
     .main-block__body{
-        padding: 180px 0px 191px 0px;
+        padding: 240px 0px 191px 0px;
     }
 }
 
 @media (max-width:479px){
     .main-block__body{
-        padding: 130px 0px 210px 0px;
+        padding: 200px 0px 210px 0px;
     }
     .burger-menu_button{
         position: fixed;
@@ -2392,7 +2401,19 @@ box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0);
 
 }
 
+.header__logo{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFEFE;
+    text-decoration: inherit;
+}
+.logo-mini img{
+    margin-top: 10px;
+    height: 100px;
+    filter: invert(1);
 
+}
 .number-title__mini{
     
 }
@@ -2664,4 +2685,95 @@ display: block;
     padding: 15px 20px;
     z-index: 100;
     border-radius: 30px 0px 0px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1176px) {
+    /* .menu__link{
+        display: none;
+    }
+    .header__logo{
+        font-size: 30px;
+        padding-top: 90px;
+        font-weight: 800;
+    }
+    .burger-menu {
+        display: block;
+    }
+    .number__header{
+        position: absolute;
+    }
+    .number__text{
+        font-size: 18px;
+        color: #ddd;
+    }
+    .number__title{
+        font-size: 22px;
+    }
+    .number__content{
+        position: absolute;
+        padding: 0px 0px 30px 15px;
+        left: 0;
+    } */
+    /* .logo-mini{
+display: flex;
+align-items: center;
+justify-content: center;
+    } */
+}
+
+
+
+.logo-mini{
+    position: relative;
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFEFE;
+    text-decoration: inherit;
+    font-family: "Exo 2", sans-serif;
+}
+.logo-mini img{
+    margin-top: 0px;
+    height: 100px;
+    filter: invert(1);
+
+}
+
+.logo-mini span{
+    background-color: #ffffff00;
+    color: #e6e6e6;
+    font-size: 10px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+
+
+
+
+.activies-tovari{
+    background-color: #e8e8e8cf;
+    padding-bottom: 80px;
+}
+
+
+
+.activies-card-tovari{
+    background-color: #fff;
+}
+
+.activies-card__title_tovari{
+    background-color: #f1f1f1;
 }
