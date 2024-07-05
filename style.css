@@ -193,7 +193,8 @@ body{
 @media(max-width:1240px){
     .number__header{
         position: absolute;
-        right: 30px;
+        right: 15px;
+        text-align: center;
     }
 }
 @media(max-width: 1176px){
